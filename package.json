@@ -1,0 +1,19 @@
+{
+  "name": "enderlord-afk-bot",
+  "version": "2.2",
+  "description": "24/7 AFK bot for Minecraft servers by Enderlørd.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js"
+  },
+  "author": "Enderlørd",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "minecraft-data": "^3.103.0",
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.1.1",
+    "vec3": "^0.1.10"
+  }
+}
